@@ -1,0 +1,99 @@
+@article{10.1109/TNET.2015.2453338,
+	author = {Nikkhah, Mehdi and Guerin, Roch and Nikkhah, Mehdi},
+	title = {Migrating the Internet to IPv6: An Exploration of the When and Why},
+	year = {2016},
+	issue_date = {August 2016},
+	publisher = {IEEE Press},
+	volume = {24},
+	number = {4},
+	issn = {1063-6692},
+	url = {https://doi.org/10.1109/TNET.2015.2453338},
+	doi = {10.1109/TNET.2015.2453338},
+	abstract = {This paper documents and to some extent elucidates the progress of IPv6 across major Internet stakeholders since its introduction in the mid 1990s. IPv6 offered an early solution to a well-understood and well-documented problem IPv4 was expected to encounter. In spite of early standardization and awareness of the issue, the Internet's march to IPv6 has been anything but smooth, even if recent data point to an improvement. This paper documents this progression for several key Internet stakeholders using available measurement data, and identifies changes in the IPv6 ecosystem that may be in part responsible for how it has unfolded. The paper also develops a stylized model of IPv6 adoption across those stakeholders, and validates its qualitative predictive ability by comparing it to measurement data.},
+	journal = {IEEE/ACM Trans. Netw.},
+	month = {aug},
+	pages = {2291–2304},
+	numpages = {14}
+}
+
+@INPROCEEDINGS{8716482,
+	author={Hamarsheh, Ala and AbdAlaziz, Yazan},
+	booktitle={2019 International Conference on Computer and Information Sciences (ICCIS)},
+	title={Transition to IPv6 Protocol, Where We Are?},
+	year={2019},
+	volume={},
+	number={},
+	pages={1-6},
+	doi={10.1109/ICCISci.2019.8716482}
+}
+
+@inproceedings{10.1145/2987443.2987474,
+	author = {Richter, Philipp and Wohlfart, Florian and Vallina-Rodriguez, Narseo and Allman, Mark and Bush, Randy and Feldmann, Anja and Kreibich, Christian and Weaver, Nicholas and Paxson, Vern},
+	title = {A Multi-Perspective Analysis of Carrier-Grade NAT Deployment},
+	year = {2016},
+	isbn = {9781450345262},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/2987443.2987474},
+	doi = {10.1145/2987443.2987474},
+	abstract = {As ISPs face IPv4 address scarcity they increasingly turn to network address translation (NAT) to accommodate the address needs of their customers. Recently, ISPs have moved beyond employing NATs only directly at individual customers and instead begun deploying Carrier-Grade NATs (CGNs) to apply address translation to many independent and disparate endpoints spanning physical locations, a phenomenon that so far has received little in the way of empirical assessment. In this work we present a broad and systematic study of the deployment and behavior of these middleboxes. We develop a methodology to detect the existence of hosts behind CGNs by extracting non-routable IP addresses from peer lists we obtain by crawling the BitTorrent DHT. We complement this approach with improvements to our Netalyzr troubleshooting service, enabling us to determine a range of indicators of CGN presence as well as detailed insights into key properties of CGNs. Combining the two data sources we illustrate the scope of CGN deployment on today's Internet, and report on characteristics of commonly deployed CGNs and their effect on end users.},
+	booktitle = {Proceedings of the 2016 Internet Measurement Conference},
+	pages = {215–229},
+	numpages = {15},
+	keywords = {ipv4 scarcity, home networks, middlebox, ipv4 address space exhaustion, carrier-grade nat, ipv6 transition, internet measurement, network address translation},
+	location = {Santa Monica, California, USA},
+	series = {IMC '16}
+}
+
+@INPROCEEDINGS{7119767, 
+	author={Golkar, Forough and Dreibholz, Thomas and Kvalbein, Amund},
+	booktitle={2014 International Conference and Workshop on the Network of the Future (NOF)},
+	title={Measuring and comparing Internet path stability in IPv4 and IPv6},
+	year={2014},
+	volume={},
+	number={},
+	pages={1-5},
+	doi={10.1109/NOF.2014.7119767}
+}
+
+@Inbook{Hughes2022_C04,
+	author="Hughes, Lawrence E.",
+	title="The Depletion of the IPv4 Address Space",
+	bookTitle="Third Generation Internet Revealed: Reinventing Computer Networks with IPv6",
+	year="2022",
+	publisher="Apress",
+	address="Berkeley, CA",
+	pages="119--146",
+	abstract="Some people today are aware that the folks in charge of the Internet are running out (or have already run out) of public IPv4 addresses. Most of them are not aware that this is not the first time we've faced this or just how low that pool of addresses is today. The majority of Internet users are either completely oblivious to what is going on and think that the Internet will go on like it has, forever. If they have heard any rumors about an address shortage, they have a blind faith that the people in charge can simply work some magic and the problem will go away. Well, they did once, in the mid-1990s (with NAT and private addresses), and they have found another trick with Carrier-Grade NAT to extend the lifetime of IPv4 even longer. However, each of these stopgap measures has caused major new problems. IPv4 is simply at its end of life, and it is time to start using its successor, IPv6.",
+	isbn="978-1-4842-8603-6",
+	doi="10.1007/978-1-4842-8603-6_4",
+	url="https://doi.org/10.1007/978-1-4842-8603-6_4"
+}
+
+@Inbook{Hughes2022_C08,
+author="Hughes, Lawrence E.",
+title="Transition Mechanisms",
+bookTitle="Third Generation Internet Revealed: Reinventing Computer Networks with IPv6",
+year="2022",
+publisher="Apress",
+address="Berkeley, CA",
+pages="285--326",
+abstract="This chapter covers a variety of protocols and mechanisms that were created to simplify the introduction of IPv6 into the Internet. The goal is not to make an abrupt transition from all-IPv4 to all-IPv6 on some kind of ``flag day'' (as happened in the transition from the First Internet to the Second Internet). That would be unbelievably disruptive and unlikely to succeed. The goal is to gradually add new capabilities that take advantage of IPv6, or work far better over it (e.g., IPsec VPN, SIP, IPTV, and most other multicast), while continuing to use IPv4 for those things that work tolerably well over IPv4 with NAT (e.g., web, email, FTP, SSH, and most client-server with intermediary servers). This allows immediate alleviation of the most grievous problems caused by widespread deployment of NAT and other shortcomings of IPv4 while allowing a longer, more controlled migration of those protocols that do not benefit as much from IPv6. Eventually, all protocols and applications will be migrated (with a few exceptions -- likely Skype can never be ported to IPv6, being heavily based on NAT traversal), and IPv4 can quietly be dropped from operating systems and hardware. However, this will probably be 5--10 years from now. As more and more applications are transitioned to IPv6, that will take the pressure off the remaining stock of IPv4 addresses.",
+isbn="978-1-4842-8603-6",
+doi="10.1007/978-1-4842-8603-6_8",
+url="https://doi.org/10.1007/978-1-4842-8603-6_8"
+}
+
+@Inbook{Hughes2022_C11,
+author="Hughes, Lawrence E.",
+title="The Future of Messaging with No NAT",
+bookTitle="Third Generation Internet Revealed: Reinventing Computer Networks with IPv6",
+year="2022",
+publisher="Apress",
+address="Berkeley, CA",
+pages="355--377",
+abstract="In the Second Internet (the one being used by most people today, based on IPv4), most nodes do not have public (globally routable) IP addresses. There are simply not enough of these to go around. Those addresses have mostly all been allocated. Today most Internet users are second-class netizens, with only private addresses. These are addresses that work only in their subnet and cannot accept incoming connections. This has a major impact on messaging.",
+isbn="978-1-4842-8603-6",
+doi="10.1007/978-1-4842-8603-6_11",
+url="https://doi.org/10.1007/978-1-4842-8603-6_11"
+}
