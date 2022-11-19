@@ -1,0 +1,87 @@
+%% sigconf for double column
+%% natbib for bibtex
+%% nonacm because it is not for a conference
+\documentclass[format=sigconf, natbib=true, nonacm=true]{acmart}
+\usepackage{lipsum}
+\begin{document}
+    \title{Impact on end-users by ISP IPv6 deployment}
+
+    \author{Tim Niklas Gruel}
+    \affiliation{
+    \institution{Ruhr-Universität Bochum}
+    \city{Bochum}
+    \country{Germany}
+    }
+    \email{tim.gruel@rub.de}
+
+    
+
+    \begin{abstract}
+        \lipsum[2]
+    \end{abstract}
+
+    \keywords{IPv6, tunneling, translation, end-user impact}
+
+    \maketitle
+
+    \section{INTRODUCTION}
+    \lipsum[1-10]
+    Hello there Smart author said you\cite{7119767} thta.
+
+    \section{EARLY SOLUTIONS}
+    \lipsum[11]
+    \subsection{NAT44}
+    \lipsum[12-15]
+    \subsection{A+P}
+    \lipsum[14-16]
+    \subsection{NAT444}
+    \lipsum[16-18]
+    \subsection*{END-USER IMPACT}
+    \lipsum[18-22]
+
+    \section{MODERN SOLUTIONS}
+    \lipsum[21]
+    \subsection{DUALSTACK}
+    \lipsum[22-25]
+    \subsection{DUALSTACK LITE}
+    \lipsum[25-28]
+    \subsection*{END-USER IMPACT}
+    \lipsum[18-22]
+
+    \section{LATEST SOLUTION: IPv6 ONLY}
+    \lipsum[21]
+    \subsection{TRANSLATION: NAT64/DNS64}
+    \lipsum[22-24]
+    \subsection{TRANSLATION: 464XLAT}
+    \lipsum[24-26]
+    \subsection{TRANSLATION: NAT-PT}
+    \lipsum[26-28]
+    \subsection*{END-USER IMPACT}
+    \lipsum[18-21]
+
+    \section{ISP Tunnels}
+    \lipsum[21]
+    \subsection{6in4}
+    \lipsum[22-24]
+    \subsection{4in6}
+    \lipsum[24-26]
+    \subsection{6to4}
+    \lipsum[26-28]
+    \subsection*{6over4}
+    \lipsum[18-21]
+    \subsection{6rd}
+    \lipsum[26-28]
+    \subsection*{Teredo}
+    \lipsum[18-21]
+    \subsection*{END-USER IMPACT}
+    \lipsum[18-22]
+
+    \section{Summary}
+    \lipsum[100-104]
+
+    %%section REFERENCES
+    \bibliographystyle{plain}
+    \bibliography{papers}
+
+
+\end{document}
